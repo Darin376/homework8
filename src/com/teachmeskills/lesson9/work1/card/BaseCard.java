@@ -16,7 +16,7 @@ public abstract class BaseCard {
     public abstract boolean checkCardBalansInfo();
 
     public void setBalance() {
-        System.out.println(CardNumberOne + " -> " + balanceONe  + " -> " + vaiteDate);
+        System.out.println(CardNumberOne + " -> " + balanceONe + " -> " + vaiteDate);
     }
 
     public String getCardNumberOne() {
@@ -28,6 +28,7 @@ public abstract class BaseCard {
     }
 
     public int getBalanceONe() {
+
         return balanceONe;
     }
 

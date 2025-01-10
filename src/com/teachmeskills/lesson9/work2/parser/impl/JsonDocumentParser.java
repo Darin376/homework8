@@ -9,7 +9,9 @@ public class JsonDocumentParser implements Parser {
 
     @Override
     public void parseFile(String fileName) {
+
         System.out.println("json pars " + fileName);
+
     }
 
 }

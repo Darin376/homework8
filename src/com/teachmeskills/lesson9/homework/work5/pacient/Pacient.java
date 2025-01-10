@@ -14,6 +14,7 @@ public class Pacient {
 
     public String getName() {
         String s = "Pacient "+ name;
+        System.out.println(icure);
         return s;
     }
 

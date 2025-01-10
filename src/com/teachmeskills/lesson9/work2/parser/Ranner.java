@@ -1,6 +1,7 @@
 package com.teachmeskills.lesson9.work2.parser;
 
 import com.teachmeskills.lesson9.work2.parser.fabrik.Fabrik;
+import com.teachmeskills.lesson9.work2.parser.impl.FilCard;
 import com.teachmeskills.lesson9.work2.parser.impl.JsonDocumentParser;
 import com.teachmeskills.lesson9.work2.parser.impl.XmlDocumentParser;
 
@@ -28,11 +29,17 @@ public class Ranner {
         String input = sc.nextLine();
         Parser parser = Fabrik.createParser(input);
         parser.parseFile(input);
+//        JsonDocumentParser jsonDocumentParser = new JsonDocumentParser();
+//        jsonDocumentParser.parseFile("oleg gay");
+//        FilCard filCard = new FilCard();
+
+//        XmlDocumentParser xmlDocumentParser = new XmlDocumentParser();
+//        xmlDocumentParser.parseFile(input);
 //        if(input.endsWith(".json")) {
 //            parser = new JsonDocumentParser();
 //        } else if (input.endsWith(".xml")) {
 //            parser = new XmlDocumentParser();
-//
+//s
 //        } else {
 //            System.out.println("Invalid input");
 //        }

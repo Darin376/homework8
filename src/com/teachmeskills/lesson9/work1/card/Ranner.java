@@ -6,8 +6,6 @@ import com.teachmeskills.lesson9.work1.card.imple.BelCard;
 import com.teachmeskills.lesson9.work1.card.imple.VisaCard;
 
 import java.util.Date;
-import javax.smartcardio.Card;
-
 
 public class Ranner {
     public static void main(String[] args) {
@@ -18,6 +16,7 @@ public class Ranner {
         for (BaseCard card : client.cards) {
             System.out.println(card.getCardNumberOne() + card.getBalanceONe() + card.getVaiteDate());
         }
+
     }
 
 

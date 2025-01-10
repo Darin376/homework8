@@ -13,12 +13,16 @@ public class CardsFabric {
         BaseCard card2 = new BelCard("2312", 11, new Date());
         BaseCard card3 = new VisaCard("2131333", 23, new Date(), "Belka");
         BaseCard card4 = new VisaCard("2221133", 25, new Date(), "Belka");
+        BaseCard card5 = new VisaCard("2221133", 25, new Date(), "Belka");
+        BaseCard card6 = new VisaCard("2221133", 25, new Date(), "Belka");
 
-        BaseCard[] cards = new BaseCard[4];
+        BaseCard[] cards = new BaseCard[6];
         cards[0] = card1;
         cards[1] = card2;
         cards[2] = card3;
         cards[3] = card4;
+        cards[4] = card5;
+        cards[5] = card6;
         return cards;
     };
 }
